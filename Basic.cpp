@@ -66,7 +66,7 @@ void Basic::print()
 
 	cout << "Enter your operation (+,-,/,^,or *): ";
 	cin >> ch;
-	cout << "Enter your numbers: ";
+	cout << "Enter your first number and second number : ";
 	cin >> a1 >> a2;
 
 	if (ch == '+')
