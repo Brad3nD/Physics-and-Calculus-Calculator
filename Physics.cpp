@@ -55,7 +55,6 @@ float Physics::kineticE(float mass, float v)
 }
 void Physics::print()
 {
-	float a1, a2;
 	Physics p;
 	string phys;
 	string quitval = "y";
@@ -70,7 +69,6 @@ void Physics::print()
 			cout << "COMMANDS FOR TEST 2: kinetic, ksys, kcm, kconv, restitution, totalE, force, springpot " << endl;
 			cout << endl;
 			cout << "PROGRAM COMMANDS: help, exit" << endl;
-			cout << endl;
 		}
 		if (phys == "exit")
 		{
